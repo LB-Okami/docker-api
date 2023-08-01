@@ -8,6 +8,6 @@ app.use(express.json());
 
 app.use(routes);
 
-app.listen(8080, '0.0.0.0', () => {
+app.listen(8080, () => {
   console.log('Servidor iniciado em http://localhost:8080');
 });
